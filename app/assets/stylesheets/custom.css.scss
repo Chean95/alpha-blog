@@ -1,3 +1,61 @@
+$navbar-default-bg: #3399ff;
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url("italian-landscape-mountains-nature.jpg");
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #331a00;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+.btn-x-large {
+  font-size: 1.7em;
+  background-color: #3399ff;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #3399ff;
+  color: black;
+}
+
+.footer small {
+  float: left;
+}
+
+.footer ul {
+  float: right;
+  list-style: none;
+}
+
+.footer ul li {
+  float: left;
+  margin-left: 15px;
+}
